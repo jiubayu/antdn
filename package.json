@@ -2,7 +2,15 @@
   "name": "@tbyangant/antdn",
   "version": "1.0.1",
   "description": "React组件的企业级UI设计",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.ja",
+  "unpkg": "dist/antdn.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
   "scripts": {
     "build": "webpack",
     "storyook": "start-storybook -p 6006",
@@ -12,7 +20,8 @@
     "test": "npm run test:unit && npm run test:e2e",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx components",
     "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx components",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "compile": "gulp compile"
   },
   "keywords": [],
   "author": "",
