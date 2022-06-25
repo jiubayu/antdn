@@ -1,9 +1,9 @@
+/* eslint-disable no-undef */
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { configureToMatchImageSnapshot } from 'jest-image-snapshot';
 import Button from '..';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import 'jest-environment-puppeteer';
 
 const toMatchSnapshot = configureToMatchImageSnapshot({

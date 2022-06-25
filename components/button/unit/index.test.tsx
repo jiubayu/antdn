@@ -1,9 +1,10 @@
 import React from 'react';
-import {mount} from 'enzyme';
-import Button from '../button';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { mount } from 'enzyme';
+import Button from '..';
 
 describe('Button', () => {
-    it('mount correctly', () => {
-        expect(() => mount(<Button>Follow</Button>)).not.toThrow();
-    })
-})
+  it('mount correctly', () => {
+    expect(() => mount(<Button>Follow</Button>)).not.toThrow();
+  });
+});
