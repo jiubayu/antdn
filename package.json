@@ -1,6 +1,6 @@
 {
   "name": "@tbyangant/antdn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React组件的企业级UI设计",
   "main": "index.js",
   "scripts": {
